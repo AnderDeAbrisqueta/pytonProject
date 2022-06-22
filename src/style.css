@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+  }
+  
+  @font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("/assets/fonts/SourceSansPro-Regular.ttf");
+  }
+
+  .plot__container {
+    width: 100%;
+    
+  }
+
+  #plot {
+    font-family: "SourceSansPro-Regular";
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
